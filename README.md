@@ -2,9 +2,11 @@
   <img src="https://youke1.picui.cn/s1/2025/10/02/68ddd1f761602.png" width="128" />
 </p>
 
-# Veloxi
-是一个开源，免费的小米 Vela 快应用图形化编辑器
+<h2 align="center">Veloxi</h2>
+<p align="center">一个开源，免费的小米 Vela 快应用图形化编辑器
 基于 Boxy 开发
+</p>
+
 # 安装
 
 1. **环境检查： 确保你的电脑已经安装了最新版本的 Node.js。**
