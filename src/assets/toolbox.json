@@ -1,0 +1,537 @@
+{
+  "kind": "categoryToolbox",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "控制",
+      "categorystyle": "controller",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_forever"
+        },
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "controls_for",
+          "inputs": {
+            "FROM": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            },
+            "TO": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "BY": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "controls_forEach"
+        },
+        {
+          "kind": "block",
+          "type": "controls_whileUntil"
+        },
+        {
+          "kind": "block",
+          "type": "controls_flow_statements"
+        },
+        {
+          "kind": "sep",
+          "gap": "64"
+        },
+        {
+          "kind": "block",
+          "type": "controls_if"
+        },
+        {
+          "kind": "block",
+          "type": "controls_if",
+          "extraState": {
+            "hasElse": true
+          }
+        },
+        {
+          "kind": "sep",
+          "gap": "64"
+        },
+        {
+          "kind": "block",
+          "type": "logic_ternary",
+          "inline": "true"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "运算",
+      "categorystyle": "calculation",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 0
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_arithmetic",
+          "inputs": {
+            "A": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0
+                }
+              }
+            },
+            "B": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_random_int",
+          "inputs": {
+            "FROM": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0
+                }
+              }
+            },
+            "TO": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "sep",
+          "gap": "64"
+        },
+        {
+          "kind": "block",
+          "type": "logic_boolean"
+        },
+        {
+          "kind": "block",
+          "type": "logic_compare"
+        },
+        {
+          "kind": "block",
+          "type": "logic_operation"
+        },
+        {
+          "kind": "block",
+          "type": "logic_negate"
+        },
+        {
+          "kind": "sep",
+          "gap": "64"
+        },
+        {
+          "kind": "block",
+          "type": "math_round"
+        },
+        {
+          "kind": "block",
+          "type": "math_modulo"
+        },
+        {
+          "kind": "block",
+          "type": "math_evenly_divisible",
+          "inputs": {
+            "DIVIDEND": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 9
+                }
+              }
+            },
+            "DIVISOR": {
+              "block": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 3
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number_property"
+        },
+        {
+          "kind": "block",
+          "type": "math_trig"
+        },
+        {
+          "kind": "block",
+          "type": "math_single"
+        },
+        {
+          "kind": "sep",
+          "gap": "64"
+        },
+        {
+          "kind": "block",
+          "type": "text"
+        },
+        {
+          "kind": "block",
+          "type": "text_join",
+          "inline": "true",
+          "extraState": {
+            "itemCount": 2
+          }
+        },
+        {
+          "kind": "block",
+          "type": "lists_split"
+        },
+        {
+          "kind": "block",
+          "type": "text_indexOf"
+        },
+        {
+          "kind": "block",
+          "type": "text_charAt"
+        },
+        {
+          "kind": "block",
+          "type": "text_getSubstring"
+        },
+        {
+          "kind": "block",
+          "type": "text_replace"
+        },
+        {
+          "kind": "block",
+          "type": "text_count"
+        },
+        {
+          "kind": "block",
+          "type": "text_length"
+        },
+        {
+          "kind": "block",
+          "type": "text_changeCase"
+        },
+        {
+          "kind": "block",
+          "type": "text_trim"
+        },
+        {
+          "kind": "block",
+          "type": "math_types"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "变量",
+      "categorystyle": "variable",
+      "custom": "VARIABLE",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "variables_set"
+        },
+        {
+          "kind": "block",
+          "type": "math_change"
+        },
+        {
+          "kind": "block",
+          "type": "variables_get"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "列表",
+      "categorystyle": "list",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "lists_create_empty"
+        },
+        {
+          "kind": "block",
+          "type": "lists_create_with",
+          "inline": "true",
+          "extraState": {
+            "itemCount": 1
+          }
+        },
+        {
+          "kind": "block",
+          "type": "lists_push"
+        },
+        {
+          "kind": "block",
+          "type": "lists_insert"
+        },
+        {
+          "kind": "block",
+          "type": "lists_delete"
+        },
+        {
+          "kind": "block",
+          "type": "lists_set"
+        },
+        {
+          "kind": "sep",
+          "gap": "64"
+        },
+        {
+          "kind": "block",
+          "type": "lists_get"
+        },
+        {
+          "kind": "block",
+          "type": "lists_length"
+        },
+        {
+          "kind": "block",
+          "type": "lists_index"
+        },
+        {
+          "kind": "block",
+          "type": "lists_includes"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "函数",
+      "categorystyle": "function",
+      "custom": "PROCEDURE",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "procedures_defnoreturn"
+        },
+        {
+          "kind": "block",
+          "type": "procedures_defreturn"
+        }
+      ]
+    },
+    {
+      "kind": "sep",
+      "contents": [
+        {
+          "gap": "32"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "构造",
+      "categorystyle": "construct",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "construct_start"
+        },
+        {
+          "kind": "block",
+          "type": "interface_basic"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "样式",
+      "categorystyle": "style",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "block_style_backgroundcolor"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_backgroundimage"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_backgroundposition"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_backgroundrepeat"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_backgroundsize"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_background"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_bordercolor"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_borderradius"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_borderstyle"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_borderwidth"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_border"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_color"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_diystyle"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_fontfamily"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_fontsize"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_fontstyle"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_fontweight"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_font"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_height"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_marginbottom"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_marginleft"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_marginright"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_margintop"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_margin"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_maxheight"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_maxwidth"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_minheight"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_minwidth"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_opacity"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_paddingbottom"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_paddingleft"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_paddingright"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_paddingtop"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_padding"
+        },
+        {
+          "kind": "block",
+          "type": "block_style_width"
+        }
+      ]
+    }
+  ]
+}
