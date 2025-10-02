@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">Veloxi</h2>
-<p align="center">一个开源，免费的小米 Vela 快应用图形化编辑器
+<p align="center">一个开源，免费的小米 Vela 快应用图形化编辑器<br>
 基于 Boxy 开发
 </p>
 
