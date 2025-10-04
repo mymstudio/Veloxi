@@ -4,8 +4,10 @@
 
 <h1 align="center">Veloxi</h1>
 
-
- <img src="https://img.shields.io/badge/Powered_By-Boxy-blue?labelColor=%23d1e0fd&color=%234062F6&link=https%3A%2F%2Fgitee.com%2Fcocotais%2Fboxy"/>   
+<div align="center">
+    <img src="https://img.shields.io/badge/Powered_By-Boxy-blue?labelColor=%23d1e0fd&color=%234062F6&link=https%3A%2F%2Fgitee.com%2Fcocotais%2Fboxy"/>   
+</div>
+ 
 
 <p align="center">一个开源，免费的小米 Vela 快应用图形化编辑器<br>
 基于 Boxy 开发
